@@ -6,7 +6,7 @@ HLM is the official and standard library-manager for the [Hascal Programming Lan
 **HLM is written in Hascal**
 ## Getting Started
 Prequiste:
-- [Hascal Compiler](https://github.com/hascal/hascal) [v1.2.4-beta](https://github.com/hascal/hascal/releases/tag/v1.2.4) or higher
+- [Hascal Compiler](https://github.com/hascal/hascal) [v1.2.5beta](https://github.com/hascal/hascal/releases/tag/v1.2.5) or higher
 
 first you should be build hlm ,enter following command in your terminal :
 ```
