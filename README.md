@@ -20,7 +20,7 @@ git clone https://github.com/hascal/hlm
 cd hlm
 hascal hlm.has
 ```
-
+and put hlm excutable file into your hascal compiler folder.
 ### Install a library with hlm
 ```bash
 hlm install <lib_name>
