@@ -1,5 +1,5 @@
 # Hascal Library Manager (HLM)
-HLM is the official and standard library-manager for the [Hascal Programming Language](https://github.com/hascal/hascal).
+HLM is the official library manager for the [Hascal Programming Language](https://github.com/hascal/hascal).
 
 **HLM is written in Hascal**
 ## Getting Started
@@ -28,7 +28,7 @@ for example :
 ```
 hlm install test
 ```
-
+**NOTE**: Libraries are installed from this [repo](https://github.com/hascal/hlm-libs)
 ### Uninstall a library with hlm
 ```bash
 hlm uninstall <lib_name>
