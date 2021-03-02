@@ -1,6 +1,4 @@
-# Hascal Library Manager
-**HLM** stands for **"Hascal Library Manager"**.
-
+# Hascal Library Manager (HLM)
 HLM is the official and standard library-manager for the [Hascal Programming Language](https://github.com/hascal/hascal).
 
 **HLM is written in Hascal**
