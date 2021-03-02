@@ -2,7 +2,7 @@
 HLM is the official library manager for the [Hascal Programming Language](https://github.com/hascal/hascal).
 
 **HLM is written in Hascal**
-## Getting Started
+## Build
 Prequiste:
 - [Hascal Compiler](https://github.com/hascal/hascal) [v1.2.5beta](https://github.com/hascal/hascal/releases/tag/v1.2.5) or higher
 
@@ -19,6 +19,7 @@ cd hlm
 hascal hlm.has
 ```
 and put hlm excutable file into your hascal compiler folder.
+## Get Started
 ### Install a library with hlm
 ```bash
 hlm install <lib_name>
