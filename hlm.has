@@ -2,26 +2,24 @@
 # this is a part of Hascal Programming Language
 # hlm.has
 
-use "log"; # import log library for log errors
-use "net.http"; # import net.http library for download libs
-use "hascal.file"; # import hascal.file library for uninstall libs
+use log; # import log library for log errors
 
-
-if args.length <= 2 {
+if argv.length <= 2 {
     print("hlm : no commands found\nusage : hlm <command> <lib_name>");
     print("commands :\n");
     print("\tinstall");
     print("\tuninstall");
 }else {
-    if args[1] == "install" {
-        print("Installing from https://github.com/hascal/hlm-libs/main/libs/" , args[2], ".has");
-        download("https://raw.githubusercontent.com/hascal/hlm-libs/main/libs/" ~ args[2] ~ ".has" , "hlib/" ~ args[2] ~ ".has");
+    if argv[1] == "install" {
+        print("Installing from https://github.com/hascal/hlm-libs/main/libs/" , argv[2], ".has");
+        download("https://raw.githubusercontent.com/hascal/hlm-libs/main/libs/" ~ argv[2] ~ ".has" , "hlib/" ~ argv[2] ~ ".has");
     }else{
-        if args[1] == "uninstall" {
-            print("Uninstalling ", args[2]);
-            RemoveFile(args[2]);
+        if argv[1] == "uninstall" {
+            print("Uninstalling ", argv[2],"...");
+            RemoveFile(argv[2]);
+			print("...Uninstalled ");
         }else{
-            log("hlm : cannot found\"" ~ args[2] ~ "\" command. ");
+            log("hlm : cannot found\"" ~ argv[2] ~ "\" command. ");
         }
     }
 }
